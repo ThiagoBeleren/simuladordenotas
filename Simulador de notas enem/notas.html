@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="notas.css">  
+        <script src="notas.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <h2>Simulador de notas (ENEM)</h2>
+        </header>
+        <main>
+                <p>Ciencias da natureza:  
+                    <input type="number" id="CN"> </input>
+                </p>
+                <p>Ciencias humanas:
+                    <input type="number" id="CH"> </input>
+                </p>
+                <p>Matemática:
+                    <input type="number" id="M"> </input>
+                </p>
+                <p>Linguagens e suas tecnologias:
+                    <input type="number" id="L"> </input>
+                </p>
+                <p>Redação:
+                    <input type="number" id="R"> </input> 
+                </p>
+                
+                <h3> Escolha o seu curso:</h3>
+                <p>
+                    <input type="radio" id="cienciasdacomputacao" name="curso"> Ciencias Da Computacao
+                    <input type="radio" id="medicina" name="curso" checked="checked"> Medicina
+    
+                </p>
+                
+                <button class="button-19" role="button" onclick="calcular()"> Calcular</button>
+
+                <div id="res">
+                
+                </div>
+                <div id="music"></div>
+            
+        </main>
+        
+    </body>
+</html>
